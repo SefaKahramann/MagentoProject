@@ -15,7 +15,7 @@ public class OrderPOM extends ParentPage{
     @FindBy(css = "li[class='product-item'] a[class='product-item-link']")
     public List<WebElement> products;
 
-    @FindBy(css = "div[class='swatch-option text']")
+    @FindBy(css = "[aria-describedby='option-label-size-143']")
     public List<WebElement> sizeList;
 
     @FindBy(css = "div[class='swatch-option color']")
